@@ -1,1 +1,2 @@
-# hosted on Netlify : https://app.netlify.com/sites/blissful-yonath-78a039/settings/general
+# weather-app react
+hosted on <a href="https://blissful-yonath-78a039.netlify.app/" rel="nofollow">Netlify</a>
