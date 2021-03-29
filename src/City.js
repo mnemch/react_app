@@ -17,8 +17,8 @@ export default function City() {
                                     className="float-left" id="icon" />
                             </div>
                             <span className="number-of-degrees" id="degreesnumber">10 </span><span
-                                className="celsius-and-farenheit"><a href="#" rel="noreferrer" id="celsius">°C </a> |
-                                <a href="#" id="fahrenheit" rel="noreferrer" >°F</a>
+                                className="celsius-and-farenheit"><a href="" rel="noreferrer" id="celsius">°C </a> |
+                                <a href="" id="fahrenheit" rel="noreferrer" >°F</a>
                             </span>
                         </h2>
                     </div>
