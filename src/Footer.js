@@ -19,8 +19,8 @@ export default function Footer() {
         <br />
         <div className="language">
             <div id="div1">
-                <a href="" rel="noreferrer"  onClick="setLanguage('en')"> 🇬🇧English </a>
-                <a href="" rel="noreferrer" onClick="setLanguage('es')"> 🇪🇸Español </a>
+                {/* <a href="#" rel="noreferrer"  onClick="setLanguage('en')"> 🇬🇧English </a>
+                <a href="#" rel="noreferrer" onClick="setLanguage('es')"> 🇪🇸Español </a> */}
             </div>
             </div>
         <div className="year">
