@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Form() {
   return (
-    <div className="Form" className="LOGO">
+    <div className="LOGO">
       <form id="search-form" className="mb-3">
         <div className="row">
           <div className="col-10">

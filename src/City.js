@@ -2,7 +2,7 @@ import React from "react";
 
 export default function City() {
   return (
-    <div classNameName="City">
+    <div className="City">
         <div className="text-inside-wrapper">
                 <h1 id="city">Groningen</h1>
                 <h2 id="currtime">Monday 00:00</h2>
@@ -13,7 +13,7 @@ export default function City() {
                         <h2>
                             <div id="weather-big-fig">
                               <img
-                                    src="http://openweathermap.org/img/wn/10d@2x.png" alt=""
+                                    src="" alt=""
                                     className="float-left" id="icon" />
                             </div>
                             <span className="number-of-degrees" id="degreesnumber">10 </span><span
