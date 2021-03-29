@@ -1,0 +1,162 @@
+body {
+  background: #fcf8e8;
+  padding: 5px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.weatherCard {
+  margin: 40px auto;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 15px;
+  border: solid 2px #df7861;
+  font-family: "Lora", serif;
+  background: #d4e2d4;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3),
+    0 0 0 0.2px rgb(222, 120, 97, 0.5);
+  width: 800px;
+}
+
+.LOGO {
+  display: block;
+  height: 60px;
+  width: 600px;
+  position: fixed;
+  background: rgb(251, 248, 232, 0.8);
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-left: 70px;
+}
+/* 
+.fa-umbrella {
+  color: #df7861;
+}
+.fa-umbrella:hover {
+  color: #845ec2;
+} */
+
+h1 {
+  padding-top: 10px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 100%;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 100%;
+  color: #1a1918;
+}
+p {
+  color: #1a1918;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+.language {
+  padding-top: 10px;
+}
+/* #map-canvas {
+  width: 30%;
+  height: 30%%;
+  float: right;
+} */
+
+iframe {
+  width: 480px;
+  height: 300px;
+  float: right;
+}
+
+.gm-style-iw {
+  text-align: center;
+}
+
+.dayinfo {
+  float: left;
+  margin-left: 25px;
+}
+
+#currtime {
+  margin-left: 15px;
+}
+
+a {
+  color: #1a1918;
+  font-family: "Lora", serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #df7861;
+}
+
+.hellohi {
+  text-align: center;
+  color: #1a1918;
+  font-family: "Lora", serif;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 100px;
+  font-size: 15px;
+}
+.language {
+  font-size: 15px;
+}
+.year {
+  font-size: 14px;
+}
+
+.btn-outline-success:hover {
+  background: #df7861;
+  border: solid 1px #df7861;
+  color: #fcf8e8;
+}
+
+.number-of-degrees {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+. {
+  margin-left: 25px;
+}
+
+.celsius-and-farenheit {
+  font-size: 18px;
+  font-weight: 100;
+  position: relative;
+  top: -23px;
+}
+
+.icon1 {
+  font-size: 55px;
+  display: inline;
+  padding: 5px;
+  margin: 0 auto;
+}
+.icon1:hover {
+  color: #df7861;
+}
+
+#forecast {
+  text-align: center;
+}
+#description {
+  margin-left: 25px;
+  font-size: 17px;
+}
+
+#weather-big-fig {
+  font-size: 55px;
+}
