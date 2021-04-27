@@ -9,28 +9,26 @@ body {
 }
 
 .weatherCard {
-  margin: 40px auto;
-  margin-top: 30px;
-  padding: 25px;
+  margin: 0 auto;
+  padding: 20px;
   border-radius: 15px;
   border: solid 2px #df7861;
   font-family: "Lora", serif;
   background: #d4e2d4;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.3),
     0 0 0 0.2px rgb(222, 120, 97, 0.5);
-  width: 800px;
+  width: 780px;
 }
 
 /* #search-form {
   position: fixed;
 } */
 .LOGO {
-  display: block;
   height: 40px;
   width: 900px;
   position: fixed;
   background: rgb(251, 248, 232, 0.8);
-  padding: 20px;
+  padding: 25px;
   border-radius: 15px;
   margin-left: 75px;
 }
@@ -110,7 +108,7 @@ a:hover {
   font-family: "Lora", serif;
   text-decoration: none;
   margin: 650px 50px 100px 300px;
-  padding: 20px;
+  padding: 15px;
   font-size: 15px;
   position: absolute;
   height: 60px;
