@@ -10,8 +10,8 @@ body {
 
 .weatherCard {
   margin: 40px auto;
-  margin-top: 50px;
-  padding: 20px;
+  margin-top: 30px;
+  padding: 25px;
   border-radius: 15px;
   border: solid 2px #df7861;
   font-family: "Lora", serif;
@@ -21,15 +21,18 @@ body {
   width: 800px;
 }
 
+/* #search-form {
+  position: fixed;
+} */
 .LOGO {
   display: block;
-  height: 60px;
-  width: 600px;
+  height: 40px;
+  width: 900px;
   position: fixed;
   background: rgb(251, 248, 232, 0.8);
-  padding: 10px 15px;
+  padding: 20px;
   border-radius: 15px;
-  margin-left: 70px;
+  margin-left: 75px;
 }
 /* 
 .fa-umbrella {
@@ -106,10 +109,11 @@ a:hover {
   color: #1a1918;
   font-family: "Lora", serif;
   text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
-  margin-bottom: 100px;
+  margin: 650px 50px 100px 300px;
+  padding: 20px;
   font-size: 15px;
+  position: absolute;
+  height: 60px;
 }
 .language {
   font-size: 15px;
@@ -129,11 +133,7 @@ a:hover {
   font-weight: 100;
 }
 
-. {
-  margin-left: 25px;
-}
-
-.celsius-and-farenheit {
+.unit {
   font-size: 18px;
   font-weight: 100;
   position: relative;

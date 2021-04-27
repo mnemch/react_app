@@ -17,6 +17,7 @@ export default function Footer() {
             <i className="fab fa-twitter"> tw</i>
         </a>
         <br />
+        {/* add trabslation sp language */}
         <div className="language">
             <div id="div1">
                 {/* <a href="#" rel="noreferrer"  onClick="setLanguage('en')"> 🇬🇧English </a>
