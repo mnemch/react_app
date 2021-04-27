@@ -58,7 +58,7 @@ export default function Weather(props) {
       <div>
       <div className="row">
         <div className="col-2">
-      <div className="col-1 currentLocColumn" className= "CurrLocBtn">
+      <div className="[col-1 currentLocColumn, CurrLocBtn]">
       <button className="btn btn-outline-success" onClick={getCurrentCity}>
         <span role="img" aria-label="here">🏴‍☠️ Find me</span>
       </button>
@@ -91,11 +91,13 @@ export default function Weather(props) {
       </div>
       <br/>
       <div className="container">
-      <div className="Wrapper" className = "weatherCard">
+      <div className="[Wrapper">
+      <div className = "weatherCard">
       {/* fix position change color make it pretty  */}
       <WeatherInfo data={weatherData}/>
       <br/>
       <WeatherForecast city={weatherData.city}/>
+      </div>
       </div>
       </div>
        </div>

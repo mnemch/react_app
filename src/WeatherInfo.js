@@ -5,7 +5,7 @@ import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props){
     return  (
-        <div className="City" className="WeatherInfo">
+        <div className="[City, WeatherInfo]">
         <div className="text-inside-wrapper">
                 <h1 id="city"> {props.data.city} </h1>
                 <h2 id="currtime"> 
