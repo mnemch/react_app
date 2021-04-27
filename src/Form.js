@@ -55,6 +55,7 @@ export default function Weather(props) {
     if (weatherData.ready) {
         return (
     <div className="LOGO">
+      <div>
       <div className="row">
         <div className="col-2">
       <div className="col-1 currentLocColumn" className= "CurrLocBtn">
@@ -88,13 +89,16 @@ export default function Weather(props) {
       </form>
       </div>
       </div>
+      <br/>
       <div className="container">
       <div className="Wrapper" className = "weatherCard">
       {/* fix position change color make it pretty  */}
       <WeatherInfo data={weatherData}/>
       <br/>
       <WeatherForecast city={weatherData.city}/>
-      </div></div>
+      </div>
+      </div>
+       </div>
     </div>
   );
     } else {

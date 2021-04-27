@@ -5,9 +5,6 @@ import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props){
     return  (
-        <div className="container">
-        <div className="weather-app-wrapper">
-        <div className="weather-app">
         <div className="City" className="WeatherInfo">
         <div className="text-inside-wrapper">
                 <h1 id="city"> {props.data.city} </h1>
@@ -38,9 +35,6 @@ export default function WeatherInfo(props){
                     </div>
                 </div> 
             </div> 
-      </div>
-      </div>
-      </div>
       </div>
   );
 }

@@ -15,7 +15,6 @@ export default function WeatherForecastPreview(props){
         return `${temperature}°C`; 
     }
 
-
     return (
         <div className="WeatherForecastPreview col">
                     {hours()}
